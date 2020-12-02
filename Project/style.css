@@ -1,0 +1,106 @@
+.main {
+display: block;
+position: relative;
+left: auto;
+top: auto;
+overflow: visible;
+width: 336px;
+height: auto;
+margin: auto;
+align-content: center;
+border: 1px solid #C4C4C4;
+border-radius: 10px;
+background: #FFFFFF;
+}
+button:active, button, input:focus, input {
+    outline: none;
+}
+
+.input {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 210px;
+    height: 25px;
+    border: 1px solid #c4c4c4;
+    border: none;
+    border-radius: 10px;
+}
+
+.inp {
+    
+    margin-left: 25px;
+    margin-top: 33px;
+    margin-right: 21px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    width: 284px;
+    height: auto;
+    
+}
+
+.draggable {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.draggable.dragging {
+    opacity: .5;
+
+}
+
+li {
+    padding: 0px;
+}
+
+.cross {
+    cursor: pointer;
+}
+
+.fourDots {
+    margin-left: 14px;
+    margin-top: 5px;
+    width: 12;
+    height: 12;
+    cursor: move;
+}
+
+.buttonAdd {
+    margin-left: 90px;
+    margin-top: 18px;
+    margin-bottom: 17px;
+    cursor: pointer;
+}
+
+.silverArrow {
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    margin-left: 280px;
+    margin-top: 1px;
+    background: url(/images/arrowDownSilver.svg) right no-repeat;
+    cursor: pointer;
+}
+.silverArrow:hover {
+    background: url(/images/arrowDownBlack.svg) right no-repeat;
+}
+
+.yellowSection {
+    height: 28px;
+    border: 1px none #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFDC40;
+}
+
+.text-block {
+    margin-left: 84px;
+    margin-top: 22px;
+    width: 164px;
+    height: 34px;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
